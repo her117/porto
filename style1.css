@@ -1,0 +1,112 @@
+/* body index */
+
+.bodycolor{
+    background-color: #394867;
+}
+
+/* end body index */
+
+
+/* Index */
+.judul_index {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #f1f6f9;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+/* end judul index */
+
+.judul_edit {
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bolder;
+    color: #f1f6f9;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* carousel style */
+.carmt {
+    margin-top: 80px;
+}
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+/* endcarousel style */
+
+/* card style */
+
+.cardcolor {
+    background-color: #9ba4b4;
+}
+
+.cardfontcolor {
+    font-weight: bolder;
+    color: #ffffff;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+/* end card style */
+
+/* navbar style */
+
+.bcgr{
+    background-color: #14274e;
+}
+
+/* end navbar style */
+
+/* footer */
+
+.inner-footer {
+    position: relative;
+    width: 100%;
+    background: #14274e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icon-sosmed {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.icon-sosmed li {
+    list-style: none;
+}
+
+.icon-sosmed li a{
+    font-size: 2em;
+    color: #9ba4b4;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.icon-sosmed li a:hover {
+    transform: translateY(-10px);
+}
+
+.outer-footer  {
+    text-align: center;
+    background: #14274e;
+    padding-bottom: 10px;
+    color: #9ba4b4;
+}
+
+/* end footer */
+
+.formbg {
+    color: red;
+}
